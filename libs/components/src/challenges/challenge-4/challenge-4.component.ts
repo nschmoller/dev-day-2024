@@ -63,13 +63,14 @@ export class Challenge4 extends LitElement {
       color: red;
     }
 
-    .close-button[closeable=false] {
+    .close-button[closeable='false'] {
       display: none;
     }
   `;
-  #close = () =>
 
-    ;
+  #close = () => {
+    return false;
+  };
 
   // Initialize default property values
 
